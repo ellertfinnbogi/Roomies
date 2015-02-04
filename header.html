@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="is">
+  <head>
+     <meta charset="utf-8" >
+     <link rel="stylesheet" href="css/look.css">
+     <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+
+  
+      <title>Roomies
+      </title>
+     
+     </head>
+
+     <body>
+     <div class="member_login">
+
+         <form method="post" action="<?php $_SERVER['SCRIPT_NAME']?>" name="loginform">
+            <label for="login_input_username">Username: </label>
+             <input id="login_input_username" type="text" name="user_name" required>
+             <label for="login_input_password">Password: </label>
+             <input id="login_input_password" type="password" name="user_password" required />
+             <input type="submit"  name="login" value="Log in" />
+         </form>
+
+     </div>
+
+      <div class="wrap">
+
+     <h1>Hér mun opna heimasíðan Roomies!</h1>
+     <a href="register.php"><h3>Opna nýjan aðgang</h3></a>
+
+     <img src="img/roomies.jpg">
+
+     </div>
+
+        <div class="wrap employees">
+            <h3>~Teymið~</h3>
+            <div class="employee">
+              <!--  <img src="david.jpg" alt=""> -->
+                <div class="info">
+                    <p class="name">Atli Sigurðsson</p>
+                    <p class="title">Co-Founder</p>
+                    <p>S: 777-7777 </p>
+                    <p><a href="mailto:ats15@hi.is">ats15@hi.is</a></p>
+                </div>
+            </div>
+            <div class="employee">
+               <!--  <img src="david.jpg" alt=""> -->
+                <div class="info">
+                    <p class="name">Ellert Finnbogi Eiríksson</p>
+                    <p class="title">Co-Founder</p>
+                    <p>S: 777-7777</p>
+                    <p><a href="mailto:efe1@hi.is">efe1@hi.is</a></p>
+                </div>
+            </div>
+                <div class="employee">
+                 <!--  <img src="david.jpg" alt=""> -->
+                <div class="info">
+                    <p class="name">Kristján Emil Torfason</p>
+                    <p class="title">Co-Founder</p>
+                    <p>S: 777-7777</p>
+                    <p><a href="mailto:ket1@hi.is">ket1@hi.is</a></p>
+                </div>
+            </div>
+            <div class="employee">
+                <!--  <img src="david.jpg" alt=""> -->
+                <div class="info">
+                    <p class="name">Trausti Már Svavarsson<p>
+                    <p class="title">Co-Founder</p>
+                    <p>S: 777-7777</p>
+                    <p><a href="mailto:tms3@hi.is">tms3@hi.is</a></p>
+                </div>
+            </div>
+        </div>
+     
+
+     
+
+
+      </body>
+</html>
